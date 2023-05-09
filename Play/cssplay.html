@@ -7,55 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="/Play/js/cssplay.js"></script>
+    <script src="/Play/js/cssplay.js" defer></script>
 
 </head>
 
 <body>
 
-    <!-- 버튼 3D 효과 - 버튼 뒤집기 -->
-    <header>
-        <link href="/Play/css/cssplay.css" rel="stylesheet">
-    </header>
+    <section id="Box">
 
-    <div class="frame">
-        <button class="custom-btn btn-12"><span>GO!</span><span>시 작</span></button>
-    </div>
-    <!-- 버튼 3D 효과 - 버튼 뒤집기 -->
+        <!-- 상단 고정 메뉴 -->
+        <header>
+            <nav>
+                <ul class="inr-menu-box">
+                    <li class="inr-menu">menu1</li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 상단 고정 메뉴 -->
 
-    <!-- 슬라이딩 버튼 효과 -->
-    <div id="holder">
+        <!-- Dropdown 메뉴 -->
+        <!-- Dropdown 메뉴 -->
 
-        <div class="button">
-            <p class="btnText">시 작</p>
-            <div class="btnTwo">
-                <p class="btnText2">▶</p>
+        <!-- 버튼 3D 효과 - 버튼 뒤집기 -->
+        <div>
+            <link href="/Play/css/cssplay.css" rel="stylesheet">
+        </div>
+
+        <div class="frame">
+            <button class="custom-btn btn-12"><span>GO!</span><span>시 작</span></button>
+        </div>
+        <!-- 버튼 3D 효과 - 버튼 뒤집기 -->
+
+        <!-- 슬라이딩 버튼 효과 -->
+        <div id="holder">
+
+            <div class="button">
+                <p class="btnText">시 작</p>
+                <div class="btnTwo">
+                    <p class="btnText2">▶</p>
+                </div>
+            </div>
+
+            <div class="button">
+                <p class="btnText">취 소</p>
+                <div class="btnTwo">
+                    <p class="btnText2">X</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- 슬라이딩 버튼 효과 -->
+
+        <!-- 원자 모양 버튼 - 호버시 도트 회전효과-->
+        <div class="container">
+            <div class="btn">
+                <span>Button</span>
+                <div class="dot"></div>
             </div>
         </div>
+        <!-- 원자 모양 버튼 - 호버시 도트 회전효과-->
 
-        <div class="button">
-            <p class="btnText">취 소</p>
-            <div class="btnTwo">
-                <p class="btnText2">X</p>
-            </div>
+        <!-- 무한 회전 이미지 -->
+        <img src="/Play/img/Chelsea-Logo.png" alt="rotate-pic" id="Infinite">
+        <!-- 무한 회전 이미지 -->
+
+        <!-- 햄버거 버튼 -->
+        <div class="wrapper transition">
+            <span class="stick"></span>
+            <span class="stick"></span>
+            <span class="stick"></span>
         </div>
+        <!-- 햄버거 버튼 -->
 
-    </div>
-    <!-- 슬라이딩 버튼 효과 -->
+        <!-- 슬라이드 버튼 -->
+        <button class="custom-btn btn-15">슬라이드 버튼</button>
+        <!-- 슬라이드 버튼 -->
 
-    <!-- 원자 모양 버튼 - 호버시 도트 회전효과-->
-    <div class="container">
-        <div class="btn">
-            <span>Button</span>
-            <div class="dot"></div>
+        <!-- 사진 overflow:hidden -->
+        <div class="overflow-hidden">
+            <img src="/Play/img/Chelsea-Logo.png" alt="overflow-hidden-pic" id="Overflow">
         </div>
-    </div>
-    <!-- 원자 모양 버튼 - 호버시 도트 회전효과-->
+        <!-- 사진 overflow:hidden -->
 
-    <!-- 무한 회전 이미지 -->
-    <img src="/Play/img/Chelsea-Logo.png" alt="pic">
-    <!-- 무한 회전 이미지 -->
 
+
+    </section>
 </body>
 
 </html>
